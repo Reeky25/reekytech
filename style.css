@@ -1,0 +1,32 @@
+h1{
+    text-align: center;
+    color: blue;
+    animation: wel;
+    animation-duration: 2ms;
+    animation-timing-function: ease;
+}
+body{
+    background-color: wheat;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+footer{
+    text-align: center;
+}
+#clear{
+        background: rgb(5, 240, 5);
+    }
+    #bee{
+        background: rgb(7, 208, 235);
+    }
+    @keyframes wel{
+        from(margin-left: 100%);
+        to(margin-left: 50%);
+    }
+    h2{
+        text-align: center;
+    }
+    .nv{
+border: 5px;
+padding: 15%;
+    }
